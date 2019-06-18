@@ -1,11 +1,11 @@
-### VERSION 1.2 - JANUARY, 2019
+### VERSION 1.3 - MAY, 2019
 
 * [Introduction](#intro)
 * [Rules](#rules)
 * [Glossary](#glossary)
 * [Errata](#errata)
 * [FAQ](#faq)
-* [Link to the Rules-PDF](https://kop-cdn.keyforgegame.com/filer_public/30/03/30032847-fa82-46a3-a28b-984efc5a91ca/keyforge_rulebook_v8-compressed.pdf)
+* [Link to the Rules-PDF](https://images-cdn.fantasyflightgames.com/filer_public/f9/a2/f9a28865-cd96-4f36-97e5-0f8ea75288c0/keyforge_rulebook_v9-compressed.pdf)
 * [Look up deck rating](/awp.html)
 
 <a name='intro'></a>
@@ -163,12 +163,13 @@ forged side, indicating that the key has been forged.
 
 Each _KeyForge_ deck is composed of three different houses, which are
 shown on the identity card. During this step, the active player chooses
-one of those three houses to activate, making it the **active house** for
+one of those three houses on their identity card to activate, making it the **active house** for
 the remainder of the turn. This active house determines which cards the
 active player can play, discard from their hand, and use this turn.
 
 * After choosing a house, the active player has the option to take all cards in their archives and add them to their hand. (See “Archives” in the Glossary.)
-* If a player controls a card that does not belong to one of the three houses in their deck, they may (if they desire) choose and activate that house during this step instead of one of the three houses in their deck.
+* If a player controls a card that does not belong to one of the three houses on their identity card, they may (if they desire) choose and activate that house during this step instead of one of the three houses in their deck.
+* A player cannot choose to activate a house unless it is either on their identity card or they control a card that belongs to that house. If a card effect instructs a player that they must activate a house other than one in the aforementioned categories, that card effect is ignored (See Cannot VS Must/May.)
 
 ### STEP 3: PLAY, DISCARD, AND USE CARDS OF THE CHOSEN HOUSE
 The active player may play or discard any number of cards of the active
@@ -515,6 +516,16 @@ The active player is the player taking the current turn. The active player
 makes all necessary decisions for all card abilities or timing conflicts that
 need to resolve during their turn.
 
+### ADJASCENT
+
+When a creature card refers to a game element as being “adjacent” to that creature or being played “adjacent” to that creature, it is referring to a card being in or being played into the position to the immediate right or immediate left of that creature.
+
+See also “Neighboring”
+
+### ALPHA
+
+When a card has the Alpha keyword, it can only be played if you haven’t played, used, or discarded any other cards during step 3 of your turn.
+
 ### ÆMBER
 Æmber is tracked by Æmber tokens, and is used to
 forge keys.
@@ -678,6 +689,13 @@ does not reduce its power. If multiple creatures are damaged by a single
 effect, that damage is dealt simultaneously.
 
 For more details on damage and combat, see page 7.
+
+### DEPLOY
+
+A creature with the deploy keyword does not need to be played on the flank
+of its controller’s battleline. Instead, when it is played it can be placed
+anywhere in its controller’s battleline, including between two other creatures.
+
 
 ### DESTROYED
 
@@ -865,6 +883,13 @@ that zone.
 If a card has a “Leaves Play:” ability, the effect happens automatically
 immediately before the card leaves play.
 
+### LEGACY
+
+This symbol indicates that a card is a legacy card. A legacy card is a rare
+instance of a card that has been brought forward from a previous set of KeyForge.
+It is legally part of the deck it is in for all game purposes, including
+tournament play.
+
 ### MAVERICK
 
 This symbol indicates that a card is a maverick. A maverick
@@ -935,6 +960,11 @@ mulligan rules.
 The creatures to the immediate left and right of a creature in a player’s
 battleline are its neighbors.
 
+### OMEGA
+
+After a card with the Omega keyword is played, the current step of the game ends. You cannot play, use, or discard any more cards and play
+continues to the next step.
+
 ### OMNI
 
 The active player may trigger any **”Omni:“** abilities under their control
@@ -953,6 +983,13 @@ active house.
 When a creature is involved in a fight (either because it was used to fight,
 or because it was attacked by another creature), the other creature in the
 fight is the opposing creature.
+
+### OTHER COUNTERS
+
+Some cards may refer to counters that do not have official components to represent them. Players can use any available resources to represent these counters such as coins, slips of paper, or even poker chips. These counters have no inherent rules, instead the card that creates them provides context to how the counters function.
+
+LIST OF COUNTER TYPES:
+* Doom Counters
 
 ### PAY
 
@@ -1045,6 +1082,8 @@ that card from play.
 
 When a card is sacrificed, that card is considered to have been
 destroyed, and any **“Destroyed:”** abilities the card has resolve.
+
+A player cannot sacrifice a card they do not control.
 
 ### SEARCH
 
@@ -1169,8 +1208,17 @@ This section conatins the official errata that have been made to individual
 cards in _KeyForge_. Errata overides the printed information on the card it
 applies to.
 
+## Library Access (COTA 115)
+Should read: “**Play**: For the remainder of the turn, each time you play another card, draw a card. Purge Library Access.”
+
 ## Biomatrix Backup (COTA 208)
 Should read: “This creature gains, ”**Destroyed**: Put this creature into its owner’s archives.””
+
+## Bait and Switch (COTA 267)
+Should read: “**Play**: If your opponent has more A than you, steal 1A. Repeat the preceding effect if your opponent still has more A than you.”
+
+## Drummernaut (AOA 006)
+Should read: “**Play/Fight/Reap**: Return another friendly Giant creature to your hand.”
 
 <a name='faq'></a>
 
@@ -1178,6 +1226,10 @@ Should read: “This creature gains, ”**Destroyed**: Put this creature into it
 
 This section provides answers to a number of common questions that
 are asked about the game. These questions are presented in a “Question and Answer” format, with the newest questions at the end.
+
+#### My opponent has 14 Æmber in their pool and I have 0 in mine. At the start of my turn I select Shadows as the active house and play the card Bait and Switch (CoTA 267). How many times does Bait and Switch trigger?
+
+In this situation, Bait and Switch’s effect will be triggered 2 times. When the effect is triggered for the first time time it checks if your opponent has more Æmber than you, and if they do it will repeat the first effect again, stealing another Æmber. However, since the card says to repeat the preceding effect and not the whole effect it can only ever trigger twice.
 
 #### My opponent has 14 Æmber in their pool and I have 0 in mine. At the start of my turn I select Shadows as the active house and play the card Bait and Switch (CoTA 267). How many times does Bait and Switch trigger?
 
@@ -1321,3 +1373,28 @@ Playing the Dysania will cause each of your opponent’s archived cards to be di
 #### I have Shadow Self (CoTA 310) with a Raiding Knight (CoTA 255) as a neighbor. My Raiding Knight is then attacked by a 4 power creature. How much damage does each creature take in this situation?
 
 In this case, the Shadow Self will take 2 damage, the Raiding Knight will take no damage, and the 4 power creature will take 4 damage and be destroyed. This happens because before the damage can be dealt to the Raiding Knight, two of it is prevented by its armor. Then when the damage is actually being dealt, the damage that would be dealt to the Raiding Knight is dealt to the Shadow Self instead. At the same time as the Shadow Self is being dealt damage, the 4 power creature takes 4 damage from the Raiding Knight’s power.
+
+#### I have a maverick Pitlord in play in a deck without house Dis. Am I forced to choose house Dis as my active house?
+
+No. You cannot choose an active house unless it is on your identity card or you control a card of that house. This restriction overrides Pitlord’s effect, allowing you to choose any of your houses as your active house.
+
+#### What happens if I use Spectral Tunneler on a non-flank creature (causing it to be considered a flank creature), then play Positron Bolt on that creature?
+
+Positron Bolt will deal 3 damage to that creature. You will choose one of that creature’s neighbors to deal 2 damage to, and then deal 1 damage to the other neighbor of that second creature.
+
+#### If I use Gabos Longarms to attack a creature without elusive, can
+I use Gabos’s “Before Fight” ability to deal damage to an elusive creature instead, or will the elusive keyword prevent the damage?
+
+Gabos Longarms can deal damage to an elusive creature using its ability. The elusive ability prevents damage only when the creature is attacked— because Gabos is not actually attacking the elusive creature, the elusive keyword will not protect it.
+
+#### What happens if I use Replicator to trigger the reap effect of an opponent’s Sanctum Guardian?
+
+Sanctum Guardian’s reap effect will do nothing. The effect would attempt to swap Sanctum Guardian into your battleline, but a creature is only allowed to be in its controller’s battleline. Since the effect does not also change control of Sanctum Guardian, it fails to resolve.
+
+#### If I play Mimicry as a copy of an action card in my opponent’s discard pile, which card does the Rule of Six apply to?
+
+For the purposes of the Rule of Six, you are considered to have played the copied card.
+
+#### I have Grasping Vines under Masterplan. If I use Masterplan’s “Omni” effect to play Grasping Vines, can I return Masterplan to my hand before it is sacrificed?
+
+Yes. Masterplan’s effect allows you to play the card beneath it before sacrificing Masterplan. Masterplan is still in play at the time you play Grasping Vines, and therefore can be returned to your hand using Grasping Vines’s effect.
